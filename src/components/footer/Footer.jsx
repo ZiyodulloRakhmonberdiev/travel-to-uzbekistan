@@ -1,11 +1,11 @@
 import { useEffect } from 'react'
 import Aos from 'aos'
 import {FiChevronRight, FiSend} from 'react-icons/fi'
-import { MdOutlineTravelExplore } from 'react-icons/md'
 import { AiOutlineTwitter } from 'react-icons/ai'
 import { AiFillYoutube } from 'react-icons/ai'
 import { AiFillInstagram } from 'react-icons/ai'
 import { FaTripadvisor } from 'react-icons/fa'
+import uzbekistan from '../../assets/images/rmuzb.png'
 import video from '../../assets/videos/ocean.mp4'
 import './footer.scss'
 import "aos/dist/aos.css"
@@ -37,7 +37,7 @@ const Footer = () => {
                 <div className="footerIntro flex">
                     <div className="logoDiv">
                         <a href="#" className="logo flex">
-                             <MdOutlineTravelExplore className="icon" />Travel
+                            <img src={uzbekistan} alt="" style={{width: "140px"}}  />
                         </a>
                     </div>
                     <div className="footerParagraph">
@@ -82,11 +82,11 @@ const Footer = () => {
                             </span>
                             <li className="footerlist flex">
                                 <FiChevronRight className='icon' />
-                                Rentcars
+                                UzTour
                             </li>
                             <li className="footerlist flex">
                                 <FiChevronRight className='icon' />
-                                HostelWorld
+                                Carnaval
                             </li>
                             <li className="footerlist flex">
                                 <FiChevronRight className='icon' />
@@ -98,7 +98,7 @@ const Footer = () => {
                             </li>
                             <li className="footerlist flex">
                                 <FiChevronRight className='icon' />
-                                Payment
+                                Paynet
                             </li>
                         </div>
                     </div>

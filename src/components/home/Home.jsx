@@ -23,10 +23,10 @@ const Home = () => {
         <div className="homeContent container">
             <div className="textDiv" data-aos="fade-up">
                 <span  className="smallText">
-                    Our packages
+                Are you ready?
                 </span>
                 <h2 className="homeTitle">
-                    Search your holiday
+                Welcome to Uzbekistan!
                 </h2>
             </div>
             <div data-aos="fade-up" className="cardDiv grid">

@@ -56,6 +56,8 @@
             }
             .cardInfo{
                 padding: 1rem;
+                display: flex;
+                flex-direction: column;
                 .descTitle{
                     color: var(--black);
                     font-size: 1.25rem;
@@ -106,6 +108,7 @@
                     font-size: 14px;
                     color: var(--textColor);
                     font-weight: 500;
+                    height: 80px;
                 }
                 .btn{
                     margin-top: 1rem;

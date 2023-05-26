@@ -3,90 +3,102 @@ import Aos from 'aos'
 import { HiOutlineLocationMarker } from 'react-icons/hi'
 import { HiOutlineClipboardCheck } from 'react-icons/hi'
 
+
+import kokand from '../../assets/images/kokand.jpg'
+import tashkent from '../../assets/images/tashkent.jpg'
+import bukhara from '../../assets/images/bukhara.jpg'
+import margilan from '../../assets/images/margilan.jpg'
+import samarkand from '../../assets/images/samarkand.webp'
+import shohimardon from '../../assets/images/shohimardon.webp'
+import surkhan from '../../assets/images/surkhan.jpg'
+import zomin from '../../assets/images/zomin.webp'
+import namangan from '../../assets/images/namangan.webp'
+
+
 import './main.scss'
 import "aos/dist/aos.css"
 
 const data = [
     {
         id: 1,
-        img: "https://picsum.photos/300",
+        img: kokand,
         destTitle: "Kokand",
         location: "Uzbekistan",
-        grade: "Cultural relax",
+        grade: "Historical culture",
         fees: "$700",
         description: "The city of Kokan, which served as the center of the huge Kokan khanate for several centuries, is much more developed today."
     },
     {
         id: 2,
-        img: "https://picsum.photos/300",
-        destTitle: "Kokand",
+        img: tashkent,
+        destTitle: "Tashkent",
         location: "Uzbekistan",
-        grade: "Cultural relax",
-        fees: "$700",
-        description: "The city of Kokan, which served as the center of the huge Kokan khanate for several centuries, is much more developed today."
+        grade: "Modern",
+        fees: "$1200",
+        description: "Tashkent is considered the capital city, and the service is very good"
     },
     {
         id: 3,
-        img: "https://picsum.photos/300",
-        destTitle: "Kokand",
+        img: margilan,
+        destTitle: "Margilan",
         location: "Uzbekistan",
         grade: "Cultural relax",
-        fees: "$700",
-        description: "The city of Kokan, which served as the center of the huge Kokan khanate for several centuries, is much more developed today."
+        fees: "$800",
+        description: "The city of Margilon is one of the most historic cities and has several secrets of experience and history in the manufacture and export of satin and adras fabrics."
     },
     {
         id: 4,
-        img: "https://picsum.photos/300",
-        destTitle: "Kokand",
+        img: samarkand,
+        destTitle: "Samarkand",
         location: "Uzbekistan",
-        grade: "Cultural relax",
-        fees: "$700",
-        description: "The city of Kokan, which served as the center of the huge Kokan khanate for several centuries, is much more developed today."
+        grade: "Historical",
+        fees: "$900",
+        description: "The city of Samarkand has a rich history and was the capital of the Timurid state"
     },
     {
         id: 5,
-        img: "https://picsum.photos/300",
-        destTitle: "Kokand",
+        img: zomin,
+        destTitle: "Zomin",
         location: "Uzbekistan",
-        grade: "Cultural relax",
-        fees: "$700",
-        description: "The city of Kokan, which served as the center of the huge Kokan khanate for several centuries, is much more developed today."
+        grade: "Relax, Nature",
+        fees: "$500",
+        description: "Zomin is a city located in Jizzah region. The air is clean, there are thousands of fir trees. A resort with healing air and water"
     },
     {
         id: 6,
-        img: "https://picsum.photos/300",
-        destTitle: "Kokand",
+        img: bukhara,
+        destTitle: "Bukhara",
         location: "Uzbekistan",
-        grade: "Cultural relax",
-        fees: "$700",
-        description: "The city of Kokan, which served as the center of the huge Kokan khanate for several centuries, is much more developed today."
+        grade: "Historical region",
+        fees: "$1000",
+        description: "Bukharai Sharif, one of the centers of Islamic civilization, has a rich history. Historical monuments have been preserved until now"
     },
     {
         id: 7,
-        img: "https://picsum.photos/300",
-        destTitle: "Kokand",
+        img: shohimardon,
+        destTitle: "Shokhimardan",
         location: "Uzbekistan",
-        grade: "Cultural relax",
+        grade: "Nature",
         fees: "$700",
-        description: "The city of Kokan, which served as the center of the huge Kokan khanate for several centuries, is much more developed today."
+        description: "Shahimardan is a mountainous region belonging to Uzbekistan located in the territory of Kyrgyzstan. The air is very clean, the scenery is beautiful"
     },
     {
         id: 8,
-        img: "https://picsum.photos/300",
-        destTitle: "Kokand",
+        img: namangan,
+        destTitle: "Namangan",
         location: "Uzbekistan",
-        grade: "Cultural relax",
-        fees: "$700",
-        description: "The city of Kokan, which served as the center of the huge Kokan khanate for several centuries, is much more developed today."
+        grade: "Nature",
+        fees: "$400",
+        description: "Mountainous resort with clean air and a large area for recreation"
     },
     {
         id: 9,
-        img: "https://picsum.photos/300",
-        destTitle: "Kokand",
+        img: surkhan,
+        destTitle: "Surkhandarya",
         location: "Uzbekistan",
-        grade: "Cultural relax",
+        grade: "Nature",
         fees: "$700",
-        description: "The city of Kokan, which served as the center of the huge Kokan khanate for several centuries, is much more developed today."
+        description: "It is a mountainous resort with beautiful scenery and many waterfalls"
     }
 ]
 
